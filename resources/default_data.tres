@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="PlayerData" load_steps=2 format=3 uid="uid://dgpnnsqa6cl37"]
+
+[ext_resource type="Script" path="res://datas/MainResource.gd" id="1_311kr"]
+
+[resource]
+script = ExtResource("1_311kr")
+paddle_speed = 500

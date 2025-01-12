@@ -1,0 +1,24 @@
+[gd_scene load_steps=2 format=3 uid="uid://bs7vylcg8w014"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_iwlsp"]
+size = Vector2(135, 25)
+
+[node name="Brick" type="StaticBody2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -67.5
+offset_top = -12.5
+offset_right = 67.5
+offset_bottom = 12.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, 0.5)
+shape = SubResource("RectangleShape2D_iwlsp")
